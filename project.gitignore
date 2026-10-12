@@ -1,0 +1,35 @@
+cat > .gitignore <<'EOF'
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Local datasets and images
+test_images/*
+!test_images/.gitkeep
+data/
+datasets/
+
+# Results and model weights
+results/*
+!results/.gitkeep
+runs/
+weights/
+*.pt
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+EOF

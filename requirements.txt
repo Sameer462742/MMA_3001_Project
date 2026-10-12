@@ -1,0 +1,5 @@
+cat > requirements.txt <<'EOF'
+inference-sdk
+Pillow
+matplotlib
+EOF
