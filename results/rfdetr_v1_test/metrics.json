@@ -1,0 +1,78 @@
+{
+  "images_total": 76,
+  "images_successful": 76,
+  "images_failed": 0,
+  "failure_rate": 0.0,
+  "confidence_threshold_for_P_R_F1": 0.5,
+  "IoU_threshold_for_P_R_F1": 0.5,
+  "precision_micro": 0.7733333333333333,
+  "recall_micro": 0.6373626373626373,
+  "F1_micro": 0.6987951807228915,
+  "mAP50_macro_over_classes_with_ground_truth": 0.5486786815538769,
+  "mAP50_95_macro_over_classes_with_ground_truth": 0.23632850020188384,
+  "mean_request_seconds": 0.7038976490270885,
+  "median_request_seconds": 0.6530815619917121,
+  "timing_includes_network": true,
+  "per_class": [
+    {
+      "class": "loose-meat",
+      "ground_truth_instances": 3,
+      "precision_at_threshold": 1.0,
+      "recall_at_threshold": 0.6666666666666666,
+      "f1_at_threshold": 0.8,
+      "mAP50": 0.6666666666666666,
+      "mAP50_95": 0.3333333333333333,
+      "TP": 2,
+      "FP": 0,
+      "FN": 1
+    },
+    {
+      "class": "packaging-error",
+      "ground_truth_instances": 29,
+      "precision_at_threshold": 0.6470588235294118,
+      "recall_at_threshold": 0.3793103448275862,
+      "f1_at_threshold": 0.4782608695652174,
+      "mAP50": 0.4139457975635146,
+      "mAP50_95": 0.08635608664027214,
+      "TP": 11,
+      "FP": 6,
+      "FN": 18
+    },
+    {
+      "class": "twisted-meat",
+      "ground_truth_instances": 7,
+      "precision_at_threshold": 0.5,
+      "recall_at_threshold": 0.7142857142857143,
+      "f1_at_threshold": 0.588235294117647,
+      "mAP50": 0.35714285714285715,
+      "mAP50_95": 0.1634920634920635,
+      "TP": 5,
+      "FP": 5,
+      "FN": 2
+    },
+    {
+      "class": "unsealed",
+      "ground_truth_instances": 52,
+      "precision_at_threshold": 0.8695652173913043,
+      "recall_at_threshold": 0.7692307692307693,
+      "f1_at_threshold": 0.8163265306122449,
+      "mAP50": 0.7569594048424693,
+      "mAP50_95": 0.36213251734186647,
+      "TP": 40,
+      "FP": 6,
+      "FN": 12
+    },
+    {
+      "class": "wrinkle",
+      "ground_truth_instances": 0,
+      "precision_at_threshold": 0,
+      "recall_at_threshold": null,
+      "f1_at_threshold": 0,
+      "mAP50": null,
+      "mAP50_95": null,
+      "TP": 0,
+      "FP": 0,
+      "FN": 0
+    }
+  ]
+}
