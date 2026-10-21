@@ -1,0 +1,17 @@
+train: /Users/sameersimon/Local Documents/MMA_3001_Project/Pork Rasher Error-Packaging-.v1i.yolov8/train/images
+val: /Users/sameersimon/Local Documents/MMA_3001_Project/Pork Rasher Error-Packaging-.v1i.yolov8/valid/images
+test: /Users/sameersimon/Local Documents/MMA_3001_Project/Pork Rasher Error-Packaging-.v1i.yolov8/test/images
+nc: 5
+names:
+- loose-meat
+- packaging-error
+- twisted-meat
+- unsealed
+- wrinkle
+roboflow:
+  workspace: ece4078h3
+  project: pork-rasher-error-packaging-rj5da
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ece4078h3/pork-rasher-error-packaging-rj5da/dataset/1
+path: /Users/sameersimon/Local Documents/MMA_3001_Project/Pork Rasher Error-Packaging-.v1i.yolov8

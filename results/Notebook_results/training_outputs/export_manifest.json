@@ -1,0 +1,24 @@
+{
+  "project": "MMA3001 Pork Rasher Defect Detection",
+  "export_created": "2026-10-21T04:44:58.871950",
+  "python_version": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "export_folder": "/content/MMA3001_YOLOv8n_Export",
+  "copied_sources": [
+    "/content/mma3001_results",
+    "/content/runs/detect",
+    "/content/runs/detect",
+    "/content/mma3001_results/yolov8n_baseline/weights/best.pt",
+    "/content/mma3001_results/yolov8n_baseline/weights/last.pt",
+    "/content/mma3001_results/yolov8n_corrected_augmented/weights/best.pt",
+    "/content/mma3001_results/yolov8n_corrected_augmented/weights/last.pt"
+  ],
+  "missing_sources": [],
+  "model_weight_files_found": [
+    "/content/mma3001_results/yolov8n_baseline/weights/best.pt",
+    "/content/mma3001_results/yolov8n_baseline/weights/last.pt",
+    "/content/mma3001_results/yolov8n_corrected_augmented/weights/best.pt",
+    "/content/mma3001_results/yolov8n_corrected_augmented/weights/last.pt"
+  ],
+  "note": "Only files found in the configured locations are included. Verify the exported folder contains the intended best.pt, metrics, plots, and notebook before deleting anything."
+}

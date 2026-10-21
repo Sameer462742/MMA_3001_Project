@@ -1,0 +1,44 @@
+{
+  "model": "yolov8n_baseline",
+  "weights": "/Users/sameersimon/Local Documents/MMA_3001_Project/results/Notebook_results/training_outputs/model_weights/yolov8n_baseline/weights/best.pt",
+  "dataset_yaml": "/Users/sameersimon/Local Documents/MMA_3001_Project/results/yolov8_test_evaluation/data_fixed.yaml",
+  "split": "test",
+  "image_size": 640,
+  "test_images": 76,
+  "precision": 0.695611070940946,
+  "recall": 0.509215074706122,
+  "map50": 0.6615123432669192,
+  "map50_95": 0.2701113049049648,
+  "per_class": {
+    "loose-meat": {
+      "class_id": 0,
+      "precision": 0.7245061801656358,
+      "recall": 0.6666666666666666,
+      "map50": 0.863,
+      "map50_95": 0.2828
+    },
+    "packaging-error": {
+      "class_id": 1,
+      "precision": 0.5127565657174799,
+      "recall": 0.10960661793257648,
+      "map50": 0.4290361553666354,
+      "map50_95": 0.12280310935301426
+    },
+    "twisted-meat": {
+      "class_id": 2,
+      "precision": 0.6886092764680306,
+      "recall": 0.5714285714285714,
+      "map50": 0.5690000000000002,
+      "map50_95": 0.25789326765188836
+    },
+    "unsealed": {
+      "class_id": 3,
+      "precision": 0.8565722614126376,
+      "recall": 0.6891584427966736,
+      "map50": 0.7850132177010414,
+      "map50_95": 0.41694884261495685
+    }
+  },
+  "results_directory": "/Users/sameersimon/Local Documents/MMA_3001_Project/results/yolov8_test_evaluation/yolov8n_baseline",
+  "metric_source": "Ultralytics model.val(split='test') on held-out test split"
+}

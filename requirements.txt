@@ -2,4 +2,7 @@ cat > requirements.txt <<'EOF'
 inference-sdk
 Pillow
 matplotlib
+streamlit
+pandas
+pytest
 EOF
