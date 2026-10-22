@@ -31,7 +31,7 @@ EXPORT_DIR_CANDIDATES = [
 OUTPUT_DIR = BASE_DIR / "results" / "yolov8_test_evaluation"
 
 # Report figure script reads these exact keys from yolov8n_test_metrics.json.
-SELECTED_MODEL = "corrected_augmented"  # change to "baseline" if needed
+SELECTED_MODEL = "corrected_augmented" 
 IMGSZ = 640
 BATCH = 16
 CONF = 0.001  # low threshold for AP computation; standard Ultralytics val default

@@ -3,7 +3,7 @@ from ultralytics import YOLO
 model = YOLO("/Users/sameersimon/Local Documents/MMA_3001_Project/results/best.pt")
 
 metrics = model.val(
-    data="/Users/sameersimon/Downloads/Pork Rasher Error-Packaging-.v1i.yolov8/data.yaml",
+    data="/Users/sameersimon/Local Documents/MMA_3001_Project/Pork Rasher Error-Packaging-.v1i.yolov8/data.yaml",
     split="test",
     imgsz=640,
     plots=True,
